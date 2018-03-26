@@ -10,6 +10,8 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+window.BASE = 'http://'+document.domain+':8080';
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

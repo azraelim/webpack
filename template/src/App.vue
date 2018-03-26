@@ -11,7 +11,7 @@
 
 <script>
 {{#unless router}}
-import HelloWorld from './components/HelloWorld'
+import HelloWorld from './modules/HelloWorld'
 
 {{/unless}}
 export default {
@@ -23,12 +23,12 @@ export default {
 </script>
 
 <style>
+  @import "./common/style/_normalize.less";
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
