@@ -246,7 +246,6 @@
             font-size: 12px;
             a{
                 display: block;
-                height: 100%;
                 position: relative;
                 color: @theme;
                 height: 30px;

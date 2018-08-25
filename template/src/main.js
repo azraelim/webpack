@@ -7,7 +7,9 @@ import App from './App'
 {{#router}}
 import router from './router'
 {{/router}}
-
+{{#vuex}}
+import vuex from './store'
+{{/vuex}}
 Vue.config.productionTip = false
 
 window.BASE = 'http://'+document.domain+':8080';
@@ -18,6 +20,9 @@ new Vue({
   {{#router}}
   router,
   {{/router}}
+  {{#vuex}}
+  vuex,
+  {{/vuex}}
   {{#if_eq build "runtime"}}
   render: h => h(App)
   {{/if_eq}}
