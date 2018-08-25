@@ -27,9 +27,7 @@
   "dependencies": {
     "vue": "^2.5.2",
     {{#router}}
-    "vue-router": "^3.0.1",
-    {{/router}}
-    {{#vuex}}
+    "vue-router": "^3.0.1"{{/router}}{{#vuex}},
     "vuex": "^3.0.1"
     {{/vuex}}
   },
@@ -125,7 +123,7 @@
     "axios": "^0.18.0",
     "less": "^3.0.1",
     "less-loader": "^4.1.0",
-    "qs": "^6.5.1",
+    "qs": "^6.5.1"
   },
   "engines": {
     "node": ">= 6.0.0",
